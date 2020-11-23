@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+    color: rgb(0, 0, 0);
+    overflow-x: hidden;
+  }
+
+/*Utility Classes*/
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+/*ProfPic*/
+.container {
+    position: fixed;
+  }
+  
+  .topleft {
+    position: absolute;
+    top: auto;
+    left: auto;
+  }
+  
+  img {
+      width: 150px;
+      height: auto;
+      opacity: 1;
+  }
+
+ /*NavBar*/
+#navbar{
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding-top: 200px;
+    background-color: #f1f1f1;
+}
+
+#navbar ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#navbar ul li a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#navbar ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+/*Showcase*/
+
+#showcase{
+    background-image: url("images\GH.jpg");
+    padding-left: 150px;
+}
